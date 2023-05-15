@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "ng serve --output-path docs --base-href /benbtf_angular/"
+    "deploy": "ng build --output-path docs --base-href /benbtf_angular/"
   },
   "private": true,
   "dependencies": {
